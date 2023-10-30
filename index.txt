@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince IV</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a background color and other styling for the body */
+        body {
+            background-color: #B0D9B1;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style the navbar */
+        .navbar {
+            width: 25%; /* 1/4 of the total width */
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: #79AC78;
+            color: #ebfbfb;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center; /* Center text horizontally */
+        }
+
+        .navbar img {
+            max-width: 100px; /* Adjust the size of the image */
+            margin: 0 auto; /* Center image horizontally */
+            display: block; /* Remove any extra spacing around the image */
+            border: 3.5px solid #618264; /* Add a white border around the image */
+            border-radius: 50%; /* Make the image circular */
+            
+        }
+
+        .navbar h2 {
+            margin: 10px 0;
+        }
+
+        .navbar p {
+            margin: 2px 0;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar li {
+            margin-bottom: 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #ebfbfb;
+            display: block; /* Make the links a block element to take full width */
+            padding: 1px 1px; /* Add some padding for better readability */
+            border: 2px solid #618264; /* Add a border */
+            background-color: #618264; /* Background color */
+            border-radius: 50%; /* Add border radius for rounded corners */
+            margin: 10px 20px; /* Add margin to create space around the links (top and bottom) */
+        }
+
+        /* Style the content section */
+        .content {
+            width: 75%; /* 3/4 of the total width */
+            margin-left: 25%; /* Leave space for the navbar */
+        }
+
+        /* Style the sections */
+        section {
+            background-color: #618264;
+            padding: 10px;
+            text-align: center;
+            height: 100vh;
+            align-items: center;
+        }
+        
+        /* Style the custom button */
+    .custom-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ebfbfb;
+        color: #618264;
+        text-decoration: none;
+        border: 2px solid #618264;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Hover effect for the button */
+    .custom-button:hover {
+        background-color: #B0D9B1;
+        color: #618264;
+    }
+
+        /* Add responsive styles here as needed */
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="https://static.vecteezy.com/system/resources/previews/020/791/419/original/cute-cartoon-frog-free-vector.jpg" alt="Prince Frogo IV Image">
+        <h2>Prince Frogo IV</h2>
+        <p>Front End Developer</p>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+    
+        <section id="home" style="display: flex; justify-content: flex-start; align-items: center;">
+    <div style="text-align: left; margin-left: 50px; margin-right: 50px;">
+        <h3>HI THERE!</h3>
+        <h1>I'M <span style="color: #ebfbfb;">Prince Frogo IV</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac efficitur dolor, elementum tempor elit. Maecenas lacinia, tellus vitae mollis tristique, eros justo pretium neque, ac volutpat nunc arcu in purus. Pellentesque a massa luctus, laoreet enim ut, tempus leo. Pellentesque commodo vestibulum turpis. Aenean id risus a risus ornare posuere et tempor turpis. Nunc fermentum semper massa ut congue. Nulla facilisi. Vivamus tempus volutpat risus ut porta. Mauris mollis nec velit pellentesque laoreet. Nullam.</p>
+        <a href="#" class="custom-button">Learn More</a>
+    </div>
+</section>
+
+        <section id="about">
+            <h1>About Section</h1>
+            <!-- Add your content here -->
+        </section>
+
+        <section id="education">
+            <h1>Education Section</h1>
+            <!-- Add your content here -->
+        </section>
+
+        <section id="portfolio">
+            <h1>Portfolio Section</h1>
+            <!-- Add your content here -->
+        </section>
+
+        <section id="contact">
+            <h1>Contact Section</h1>
+            <!-- Add your content here -->
+        </section>
+    </div>
+</body>
+</html>
